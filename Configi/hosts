@@ -1,0 +1,31 @@
+127.0.0.1 localhost
+
+172.16.0.1	r1.kropka.pl 	r1
+10.0.0.1	s1.kropka.pl 	s1
+10.0.0.2	s2.kropka.pl 	s2
+10.0.0.3	s3.kropka.pl 	s3
+
+172.16.0.2	load.kropka.pl	load
+10.33.0.1	load1.kropka.pl	load1
+10.33.0.2	load2.kropka.pl	load2
+
+10.33.1.1	worker1.kropka.pl	worker1
+10.33.1.2	worker2.kropka.pl	worker2
+10.33.1.3	worker3.kropka.pl	worker3
+
+10.33.1.254	nagios.kropka.pl	nagios
+10.33.1.254	ldap.kropka.pl		ldap
+
+192.168.1.1	worker1c.kropka.pl      worker1c
+192.168.1.2	worker2c.kropka.pl      worker2c
+192.168.1.3     worker3c.kropka.pl      worker3c
+192.168.1.251	content1.kropka.pl	content1
+192.168.1.252	content2.kropka.pl	content2
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
